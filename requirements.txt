@@ -1,0 +1,6 @@
+--extra-index-url https://blpapi.bloomberg.com/repository/releases/python/simple
+blpapi
+blp==0.0.3
+fastapi==0.115.11
+pandas==2.2.3
+pydantic==2.10.6
