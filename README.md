@@ -7,6 +7,7 @@ This API provides an interface to fetch historical financial data from Bloomberg
 This project is intended for educational purposes only. It is designed to run locally on a machine with a valid Bloomberg Terminal installation. This tool does not redistribute any Bloomberg data and does not bypass any licensing restrictions. Use of this software is still subject to Bloomberg’s licensing terms. The author assumes no responsibility for misuse.
 
 ## Structure of the Project
+```
 bbmirror/
 │── app/                           # Main application folder
 │   ├── routers/                   # API route handlers (modular)
@@ -35,7 +36,7 @@ bbmirror/
 │── requirements.txt                # Python dependencies
 │── README.md                        # Documentation
 │── .gitignore                       # Ignore unnecessary files
-
+```
 
 Breakdown of the structure:
 - routers/ → Contains separate routers for different API endpoints (e.g., bdh_router.py, bdp_router.py).
