@@ -12,8 +12,8 @@ tags_metadata = [
 ]
 
 app = FastAPI(
-    title="Bloomberg API Mirror",
-    description="API for fetching Bloomberg financial data.",
+    title="BBMirror",
+    description="API providing access to financial data using the blp Python library.",
     version="1.0.0",
     openapi_tags=tags_metadata,
     docs_url="/",

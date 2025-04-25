@@ -1,7 +1,7 @@
-# Bloomberg FastAPI Wrapper
+# bbmirror
 
 ## Overview
-This API provides an interface to fetch historical financial data from Bloomberg using FastAPI. It allows users to access all functions from the blp Python library (https://pypi.org/project/blp/) to retrieve data for multiple tickers and fields over a specified time range, with optional query parameters and overrides.
+bbmirror is a FastAPI-based interface for accessing financial data using the blp Python library (https://pypi.org/project/blp/). It is designed for licensed Bloomberg Terminal users who want to interact with their data programmatically via a REST API.
 
 ## ⚠️ Disclaimer 
 This project is intended for educational purposes only. It is designed to run locally on a machine with a valid Bloomberg Terminal installation. This tool does not redistribute any Bloomberg data and does not bypass any licensing restrictions. Use of this software is still subject to Bloomberg’s licensing terms. The author assumes no responsibility for misuse.
