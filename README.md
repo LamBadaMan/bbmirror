@@ -9,8 +9,8 @@ This project is intended for educational purposes only. It is designed to run lo
 ## Structure of the Project
 ```
 bbmirror/
-│── app/                           # Main application folder
-│   ├── routers/                   # API route handlers (modular)
+│── app/                            # Main application folder
+│   ├── routers/                    # API route handlers (modular)
 │   │   ├── __init__.py             # Makes `routers` a package
 │   │   ├── bdh_router.py           # BDH API route
 │   │   ├── bdp_router.py           # BDP API route
@@ -34,8 +34,8 @@ bbmirror/
 │   ├── test.ipynb                  # Blp package-related tests in Jupyter
 │
 │── requirements.txt                # Python dependencies
-│── README.md                        # Documentation
-│── .gitignore                       # Ignore unnecessary files
+│── README.md                       # Documentation
+│── .gitignore                      # Ignore unnecessary files
 ```
 
 Breakdown of the structure:
