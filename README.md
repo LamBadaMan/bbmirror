@@ -3,6 +3,8 @@
 ## Overview
 `bbmirror` is a FastAPI-based interface for accessing financial data using the `blp` Python library (https://pypi.org/project/blp/). It is designed for licensed Bloomberg Terminal users who want to interact with their data programmatically via a REST API.
 
+Queries to `bbmirror` can be easily performed using the companion client package `bbmirror-client`, available separately. It provides a simple Python interface for interacting with the API.
+
 ## ⚠️ Disclaimer 
 This project is intended for educational purposes only. It is designed to run locally on a machine with a valid Bloomberg Terminal installation. This tool does not redistribute any Bloomberg data and does not bypass any licensing restrictions. Use of this software is still subject to Bloomberg’s licensing terms. The author assumes no responsibility for misuse.
 
