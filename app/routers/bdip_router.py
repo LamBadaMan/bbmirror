@@ -12,7 +12,7 @@ router = APIRouter()
 @router.post("/", summary="Download intraday bars.", operation_id="bdip")
 async def get_bdip(request: BDIPRequest, bquery: blp.BlpQuery = Depends(bbconnect)):
     try:
-        data = bquery.bdip(
+        data = bquery.bdib(
             request.ticker,
             request.event_type,
             interval=request.interval,
