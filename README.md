@@ -45,7 +45,7 @@ Breakdown of the structure:
 - tests/ → Unit tests, integration, and other tests.
 - main.py → Only responsible for initializing FastAPI & registering routers.
 
-## To-Dos in the Future
+## Planned Improvements
 - Add background job handling
     - Integrate Redis, Celery, and Flower to manage and monitor long-running or large Bloomberg queries asynchronously
 - Enhance Pydantic models
