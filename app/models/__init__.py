@@ -1,4 +1,2 @@
-from .bdp_model import BDPRequest
-from .bdh_model import BDHRequest
-from .bds_model import BDSRequest
-from .bdip_model import BDIPRequest
+from .bloomberg import BDPRequest, BDHRequest, BDSRequest, BDIPRequest
+from .gas_infra import GieBaseRequest
