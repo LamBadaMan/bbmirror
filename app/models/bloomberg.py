@@ -6,7 +6,7 @@ class BloombergBaseRequest(BaseModel):
     tickers: List[str]
     fields: List[str]
     options: Optional[Dict[str, Any]] = {}
-    overrides: Optional[List[Tuple[str, str]]] = []
+    overrides: Optional[List[Tuple[str, Any]]] = []
 
 
 class BDHRequest(BloombergBaseRequest):

@@ -6,3 +6,4 @@ pandas==2.2.3
 pydantic==2.10.6
 python-dotenv
 gie-py
+uvicorn
